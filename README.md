@@ -14,3 +14,5 @@ YAMCHA has several features:
 - A detailed tutorial is provided, covering several key concepts in atmospheric chemistry as well.
 
 The ODE solver in SciPy is used here, which is a general purpose ODE solver package that has the Backward Diffentiation Formula (BDF) option that is suitable for still problems. This is certainly not as faster as some modern solvers out there.
+
+Note that the KPP format has several *flavors*, e.g., the KPP files used in GEOS-Chem or WRF-Chem may look somewhat different from the KPP files generated from MCM. Currently other KPP *flavors* are not fully supported but will expand to cover more KPP in the future, especially the KPP format in GEOS-Chem and the mechanism file in CESM/CAM-Chem.
