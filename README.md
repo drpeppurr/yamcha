@@ -6,7 +6,7 @@ https://sites.google.com/view/wangsiyuan/models
 
 This box model solves the initial value problem defined by a (complex) chemical system, using an ordinary differential solver (ODE), with a major focus on chemistry in the atmosphere. Chemistry in the atmosphere involves tens thousands of chemical reactions across multiple phases (e.g. gases, aerosols, droplets), therefore is often extremely still mathematically.
 
-All-in-one Jupyter Notebook containing the model and all utility functions is here: 
+All-in-one Jupyter Notebook containing the model and all utility functions is here: https://github.com/drpeppurr/yamcha/blob/main/YAMCHA_beta.ipynb
 
 ### **Key features:**
 - Built-in support for KPP (Kinetic PreProcessor) format from the Master Chemical Mechanism (MCM, https://mcm.york.ac.uk/MCM/). MCM is a near-explicit chemical mechansim that is widely considered as a benchmark mechanism.
