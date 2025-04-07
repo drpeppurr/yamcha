@@ -13,7 +13,7 @@ All-in-one Jupyter Notebook containing the model and all utility functions is he
 - Flexible mechanism parser: users can manually type in all the chemical reactions if they wish. The parser can recognize complex chemical reactions (e.g. with non-1 stoichiometric yields) and generic rate expressions.
 - Derivatives that are needed for ODE solvers are automatically generated. This is key because it's unrealistic for humans to write the derivatives which is often very complex.
 - Jacobian matrix is also automatically generated, which makes the model as fast as a (conventional) ODE can do. This is also important since the Jacobian matrix is even more complicated.
-- A detailed tutorial is provided, covering several key concepts in atmospheric chemistry as well.
+- A detailed tutorial is provided, covering several key concepts in atmospheric chemistry as well. Link: https://github.com/drpeppurr/yamcha/tree/main/tutorial
 
 ### **Important notes:**
 - The ODE solver in SciPy is used here, which is a general purpose ODE solver package that has the Backward Diffentiation Formula (BDF) option that is suitable for still problems. This is certainly not as faster as some modern solvers out there. I have also experimented several other options. numba/numbaLSODA showed some promising potentials but not quite there yet.
